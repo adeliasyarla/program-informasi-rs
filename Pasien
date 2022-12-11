@@ -1,0 +1,71 @@
+import java.util.Scanner;
+public class Pasien {
+
+    Scanner in = new Scanner(System.in);
+    public int id_pasien, no_tlp;
+    public String nama, alamat;
+
+    public int getId_pasien() {
+        return id_pasien;
+    }
+
+    public void setId_pasien(int id_pasien) {
+        this.id_pasien = id_pasien;
+    }
+
+    public int getNo_tlp() {
+        return no_tlp;
+    }
+
+    public void setNo_tlp(int no_tlp) {
+        this.no_tlp = no_tlp;
+    }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public String getAlamat() {
+        return alamat;
+    }
+
+    public void setAlamat(String alamat) {
+        this.alamat = alamat;
+    }
+
+    public void masuk() {
+        System.out.println("Id Pasien : " + id_pasien);
+        System.out.println("Nama : " + nama);
+        System.out.println("Alamat : " + alamat);
+        System.out.println("No tlp : " + no_tlp);
+        System.out.println("Anda Sudah Melakukan Pendaftaran");
+    }
+
+    public void keluar() {
+        System.out.println("Maaf Pendaftaran Anda Gagal ");
+        System.out.println("Silahkan Kembali Ke Menu Awal");
+    }
+
+    public void daftar() {
+        int daftar;
+        System.out.println(" Selamat Datang di Menu Pendaftaran ");
+        daftar = in.nextInt();
+        if (daftar == 1) {
+            System.out.println("Anda Ingin Melakukan Pendaftaran ");
+            System.out.println("Pendafaran Anda Segera di Proses");
+        } else if (daftar == 2) {
+            System.out.println("Anda Ingin Chek Up");
+            System.out.println("Mohon Ditunggu");
+        } else if (daftar == 3) {
+            System.out.println("Anda Ingin Mengambil Resep Obat");
+            System.out.println("Mohon Ditunggu");
+        } else if (daftar == 4) {
+            System.out.println("Rawat Inap");
+            System.out.println("Silahkan Pilih Kamar");
+        }
+    }
+}
