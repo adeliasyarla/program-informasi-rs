@@ -1,0 +1,29 @@
+public class Kamar {
+    public int id_kamar;
+    public String id_Pasien;
+
+    public int getId_kamar() {
+        return id_kamar;
+    }
+
+    public void setId_kamar(int id_kamar) {
+        this.id_kamar = id_kamar;
+    }
+
+    public String getId_Pasien() {
+        return id_Pasien;
+    }
+
+    public void setId_Pasien(String id_Pasien) {
+        this.id_Pasien = id_Pasien;
+    }
+
+    public void JenisKamar() {
+        System.out.println("1. VVIP  -----Rp.1.210.000/malam");
+        System.out.println("2. Kelas 1A-----Rp.450.000/malam");
+        System.out.println("3. Kelas 1B -----Rp.250.000/malam");
+        System.out.println("3. Kelas 2 -----Rp.180.000/malam");
+        System.out.println("3. Kelas 3 -----Rp.100.000/malam");
+    }
+}
+
