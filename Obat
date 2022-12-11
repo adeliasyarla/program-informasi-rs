@@ -1,0 +1,18 @@
+public class Obat {
+    public String obat;
+
+    public String getObat() {
+        return obat;
+    }
+
+    public void setObat(String obat) {
+        this.obat = obat;
+    }
+
+    public void Obat(){
+        System.out.println("Obat Anak");
+        System.out.println("Penyakit Dalam ");
+        System.out.println("Gigi ");
+        System.out.println("Kulit ");
+    }
+}
