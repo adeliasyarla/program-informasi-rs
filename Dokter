@@ -1,0 +1,46 @@
+public class Dokter {
+    public int id;
+    public String nama, spesialis,waktu_prak;
+
+    public int getId(){return id; }
+    public void setId(int id) {this.id = id;}
+
+    public String getNama(){
+        return nama;
+    }
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public String getSpesialis(){
+        return spesialis;
+    }
+    public void setSpesialis(String spesialis) {this.spesialis = spesialis;}
+
+    public String getWaktu_prak() {return waktu_prak;}
+    public void setWaktu_prak(String waktu_prak) {this.waktu_prak = waktu_prak;}
+
+    public void dataDokter(){
+        System.out.println("Id : 0016 ");
+        System.out.println("Nama Dokter : Galang Addin");
+        System.out.println("Spesialis : Anak");
+        System.out.println("Waktu Praltek : 06.30-12.30 ");
+        System.out.println("\n");
+        System.out.println("Id : 0017 ");
+        System.out.println("Nama Dokter : Iindarti");
+        System.out.println("Spesialis : Penyakit Dalam");
+        System.out.println("Waktu Praltek : 07.00-12.00 ");
+        System.out.println("\n");
+        System.out.println("Id : 0018 ");
+        System.out.println("Nama Dokter : Andik Jatmiko");
+        System.out.println("Spesialis : Gigi");
+        System.out.println("Waktu Praltek : 08.00-15.00 ");
+        System.out.println("\n");
+        System.out.println("Id : 0019 ");
+        System.out.println("Nama Dokter : Niela Ade");
+        System.out.println("Spesialis : Kulit");
+        System.out.println("Waktu Praltek : 10.00-15.00 ");
+        System.out.println("\n");
+
+    }
+}
