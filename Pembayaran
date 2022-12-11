@@ -1,0 +1,9 @@
+public class Pembayaran {
+    public int id_pasien;
+    public String nama;
+
+    public void pembayaran(){
+        System.out.println("Anda Telah Membayar Lunas");
+        System.out.println("TERIMKASIH TELAH MELAKUKAN PEMBAYARAN...");
+    }
+}
